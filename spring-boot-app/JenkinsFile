@@ -9,7 +9,7 @@ gitpipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero.git'
+        https://github.com/sithiradesilva/java-maven-sonar-argocd-helm-k8s.git
       }
     }
     stage('Build and Test') {
